@@ -1,0 +1,35 @@
+.feed {
+    padding-bottom: 71px;
+    img {
+        width: 171px;
+        height: 171px;
+    }
+    &__item {
+        display: flex;
+        margin-top: 100px;
+    }
+    &__text {
+        width: 650px;
+        margin-left: 61px;
+    }
+    &__name {
+        font-size: 18px;
+        color: rgba(13, 13, 13, 255);
+        text-align: left;
+        font-weight: 700;
+    }
+    &__subheader {
+        font-size: 14px;
+        color: rgba(100, 100, 100, 255);
+        text-align: left;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+    &__dscr {
+        font-size: 16px;
+        color: rgba(13, 13, 13, 255);
+        text-align: left;
+        font-weight: 500;
+        margin-top: 19px;
+    }
+}
